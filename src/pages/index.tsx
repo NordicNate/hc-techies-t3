@@ -34,7 +34,7 @@ const Home: NextPage = () => {
               "Loading..."
             ) : !data ? (
               <Link href="/auth" className="underline text-blue-500">
-                "Please don't log in"
+                Please dont log in
               </Link>
             ) : (
               <>
